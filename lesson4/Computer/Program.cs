@@ -10,12 +10,23 @@ namespace Computer
     {
         static void Main(string[] args)
         {
-            Computer computer = new Computer();
-            computer.firstNum = 15;
-            computer.secondNum = 20;
-            computer.operate = '*';
-            computer.compute();
-            Console.ReadLine();
+            try
+            {
+                Console.WriteLine("输入数字a：");
+                string aNum = Console.ReadLine();
+                Console.WriteLine("输入运算符号：");
+                string operate = Console.ReadLine();
+                Console.WriteLine("输入数字b：");
+                string bNum = Console.ReadLine();
+                string res = "";
+                res = Convert.ToString(Computer.getResult(Convert.ToDouble(aNum), operate, Convert.ToDouble(bNum)));
+                Console.WriteLine("输出结果是：");
+                Console.WriteLine(res);
+                Console.ReadLine();
+            } catch (Exception ex)
+            {
+                Console.WriteLine("输入有错误");
+            }
         }
     }
 }

@@ -6,54 +6,35 @@ using System.Threading.Tasks;
 
 namespace Computer
 {
-    class Computer
+    public class Computer
     {
-        public double firstNum, secondNum;
-        public Char operate;
-
-        public void setFirstNum(double Num)
+        public static double getResult (double firstNum, string operate, double secondNum)
         {
-
-            this.firstNum = Num;
-        }
-        public void setSecondNum(double Num)
-        {
-            this.secondNum = Num;
-        }
-
-        public void compute ()
-        {
+            double result = 0;
             switch(operate)
             {
-                case '+':
-                {
-                        Console.WriteLine(firstNum + secondNum);
-                        break;
-                }
-                case '-':
+                case "+":
                     {
-                        Console.WriteLine(firstNum - secondNum);
+                        result = firstNum + secondNum;
                         break;
                     }
-                case '*':
+                case "-":
                     {
-                        Console.WriteLine(firstNum * secondNum);
+                        result = firstNum - secondNum;
                         break;
                     }
-                case '/':
+                case "*":
                     {
-                        if(secondNum == 0)
-                        {
-                            Console.WriteLine("数值不合法");
-                            break;
-                        } else
-                        {
-                            Console.WriteLine(firstNum / secondNum);
-                        }
+                        result = firstNum * secondNum;
+                        break;
+                    }
+                case "/":
+                    {
+                        result = firstNum / secondNum;
                         break;
                     }
             }
-
+            return result;
         }
     }
 }
