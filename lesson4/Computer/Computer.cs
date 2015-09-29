@@ -6,35 +6,111 @@ using System.Threading.Tasks;
 
 namespace Computer
 {
-    public class Computer
+    public class Operation
     {
-        public static double getResult (double firstNum, string operate, double secondNum)
-        {
+        private double _numA = 0;
+        private double _numB = 0;
+
+        public double NumA {
+            get {
+                return _numA;
+            }
+            set {
+                _numA = value;
+            }
+        }
+
+        public double NumB {
+            get {
+                return _numB;
+            }
+            set {
+                _numB = value;
+            }
+        }
+
+        public virtual double GetResult () {
             double result = 0;
+            return result;
+        }
+
+    }
+
+    class OperationAdd : Operation {
+        public override double GetResult () {
+            double result = 0;
+            result = NumA + NumB;
+            return result;
+        }
+    }
+
+    class OperationSub : Operation {
+        public override double GetResult () {
+            double result = 0;
+            result = NumA - NumB;
+            return result;
+        }
+    }
+
+    class OperationMul : Operation {
+        public override double GetResult () {
+            double result = 0;
+            result = NumA * NumB;
+            return result;
+        }
+    }
+
+    class OperationDiv : Operation {
+        public override double GetResult () {
+            double result = 0;
+            result = NumA / NumB;
+            return result;
+        }
+    }
+
+    class OperationSqrt : Operation {
+        public override double GetResult () {
+            double result = 0;
+            if (NumB < 0)
+                throw new Exception("负数不能开平方根");
+            result = Math.Sqrt(NumB);
+            return result;
+        }
+    }
+    public class OperationFactory
+    {
+        public static Operation createOperate(string operate)
+        {
+            Operation oper = null;
             switch(operate)
             {
                 case "+":
                     {
-                        result = firstNum + secondNum;
+                        oper = new OperationAdd();
                         break;
                     }
                 case "-":
                     {
-                        result = firstNum - secondNum;
+                        oper = new OperationSub();
                         break;
                     }
                 case "*":
                     {
-                        result = firstNum * secondNum;
+                        oper = new OperationMul();
                         break;
                     }
                 case "/":
                     {
-                        result = firstNum / secondNum;
+                        oper = new OperationDiv();
+                        break;
+                    }
+                case "sqrt":
+                    {
+                        oper = new OperationSqrt();
                         break;
                     }
             }
-            return result;
+            return oper;
         }
     }
 }

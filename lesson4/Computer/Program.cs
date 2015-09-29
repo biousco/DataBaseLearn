@@ -19,13 +19,19 @@ namespace Computer
                 Console.WriteLine("输入数字b：");
                 string bNum = Console.ReadLine();
                 string res = "";
-                res = Convert.ToString(Computer.getResult(Convert.ToDouble(aNum), operate, Convert.ToDouble(bNum)));
+
+                Operation oper;
+                oper = OperationFactory.createOperate(operate);
+                oper.NumA = Convert.ToDouble(aNum);
+                oper.NumB = Convert.ToDouble(bNum);
+                res = Convert.ToString(oper.GetResult());
                 Console.WriteLine("输出结果是：");
                 Console.WriteLine(res);
                 Console.ReadLine();
             } catch (Exception ex)
             {
-                Console.WriteLine("输入有错误");
+                Console.WriteLine("输入有错误:" + ex.Message);
+                Console.ReadLine();
             }
         }
     }
