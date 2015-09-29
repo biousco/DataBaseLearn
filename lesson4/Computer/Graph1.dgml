@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 @3 @12)" Category="CodeSchema_Method" Bounds="392.632334688971,270.840264792013,154.826666666668,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="GetResult" Icon="Microsoft.VisualStudio.Method.Public" Label="GetResult() : double" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=31 StartCharacterOffset=30 EndLineNumber=31 EndCharacterOffset=39)" />
+    <Node Id="(@1 @2 @3 Member=NumA)" Category="CodeSchema_Property" Bounds="549.91233468897,158.840264792013,128.193333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="NumA" Icon="Microsoft.VisualStudio.Property.Public" Label="NumA : double" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=13 StartCharacterOffset=22 EndLineNumber=13 EndCharacterOffset=26)" />
+    <Node Id="(@1 @2 @3 Member=NumB)" Category="CodeSchema_Property" Bounds="392.632334688971,158.840264792013,127.279999999999,26" CodeSchemaProperty_IsPublic="True" CommonLabel="NumB" Icon="Microsoft.VisualStudio.Property.Public" Label="NumB : double" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=22 StartCharacterOffset=22 EndLineNumber=22 EndCharacterOffset=26)" />
+    <Node Id="(@1 @2 @3 Member=_numA)" Category="CodeSchema_Field" Bounds="552.92900135564,214.840264792013,131.209999999999,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="_numA" Icon="Microsoft.VisualStudio.Field.Private" Label="_numA : double" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=10 StartCharacterOffset=23 EndLineNumber=10 EndCharacterOffset=28)" />
+    <Node Id="(@1 @2 @3 Member=_numB)" Category="CodeSchema_Field" Bounds="392.632334688971,214.840264792013,130.296666666669,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="_numB" Icon="Microsoft.VisualStudio.Field.Private" Label="_numB : double" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=11 StartCharacterOffset=23 EndLineNumber=11 EndCharacterOffset=28)" />
+    <Node Id="(@1 @2 Type=OperationAdd @12)" Category="CodeSchema_Method" Bounds="11.3705922152854,386.87508676853,154.826666666668,26" CodeSchemaProperty_IsPublic="True" CommonLabel="GetResult" Icon="Microsoft.VisualStudio.Method.Public" IsOverloaded="True" Label="GetResult() : double" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=39 StartCharacterOffset=31 EndLineNumber=39 EndCharacterOffset=40)" />
+    <Node Id="(@1 @2 Type=OperationDiv @12)" Category="CodeSchema_Method" Bounds="685.789286581425,386.874844617336,154.825420053334,25.9997839999996" CodeSchemaProperty_IsPublic="True" CommonLabel="GetResult" Icon="Microsoft.VisualStudio.Method.Public" IsOverloaded="True" Label="GetResult() : double" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=63 StartCharacterOffset=31 EndLineNumber=63 EndCharacterOffset=40)" />
+    <Node Id="(@1 @2 Type=OperationFactory Member=(Name=createOperate OverloadingParameters=[(@11 Namespace=System Type=String)]))" Category="CodeSchema_Method" Bounds="433.123578472451,6.87678264673325,232.103333333333,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="createOperate" Icon="Microsoft.VisualStudio.Method.Public" Label="createOperate(string) : Operation" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=81 StartCharacterOffset=32 EndLineNumber=81 EndCharacterOffset=45)" />
+    <Node Id="(@1 @2 Type=OperationMul @12)" Category="CodeSchema_Method" Bounds="461.025146523644,402.772606804855,154.765582613334,25.9894160000003" CodeSchemaProperty_IsPublic="True" CommonLabel="GetResult" Icon="Microsoft.VisualStudio.Method.Public" IsOverloaded="True" Label="GetResult() : double" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=55 StartCharacterOffset=31 EndLineNumber=55 EndCharacterOffset=40)" />
+    <Node Id="(@1 @2 Type=OperationSqrt @12)" Category="CodeSchema_Method" Bounds="910.61493303645,386.87605429978,154.826666666668,26" CodeSchemaProperty_IsPublic="True" CommonLabel="GetResult" Icon="Microsoft.VisualStudio.Method.Public" IsOverloaded="True" Label="GetResult() : double" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=71 StartCharacterOffset=31 EndLineNumber=71 EndCharacterOffset=40)" />
+    <Node Id="(@1 @2 Type=OperationSub @12)" Category="CodeSchema_Method" Bounds="236.197259746545,386.87473761612,154.826666666668,26" CodeSchemaProperty_IsPublic="True" CommonLabel="GetResult" Icon="Microsoft.VisualStudio.Method.Public" IsOverloaded="True" Label="GetResult() : double" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=47 StartCharacterOffset=31 EndLineNumber=47 EndCharacterOffset=40)" />
+    <Node Id="@10" Category="CodeSchema_Class" Bounds="216.19796169587,346.825051725016,194.826666666668,86.0002" CodeSchemaProperty_IsInternal="True" CommonLabel="OperationSub" Group="Expanded" Icon="Microsoft.VisualStudio.Class.Internal" Label="OperationSub" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=46 StartCharacterOffset=10 EndLineNumber=46 EndCharacterOffset=22)" />
+    <Node Id="@4" Category="CodeSchema_Class" Bounds="372.632334688971,118.840264792013,331.506666666668,198" CodeSchemaProperty_IsPublic="True" CommonLabel="Operation" Group="Expanded" Icon="Microsoft.VisualStudio.Class.Public" Label="Operation" LayoutSettings="ForceDirected" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=8 StartCharacterOffset=17 EndLineNumber=8 EndCharacterOffset=26)" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Class" Bounds="-8.62870497079768,346.786511650267,194.826666666668,86.0002" CodeSchemaProperty_IsInternal="True" CommonLabel="OperationAdd" Group="Expanded" Icon="Microsoft.VisualStudio.Class.Internal" Label="OperationAdd" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=38 StartCharacterOffset=10 EndLineNumber=38 EndCharacterOffset=22)" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="665.790542356079,346.825051725016,194.825420053334,85.9999839999996" CodeSchemaProperty_IsInternal="True" CommonLabel="OperationDiv" Group="Expanded" Icon="Microsoft.VisualStudio.Class.Internal" Label="OperationDiv" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=62 StartCharacterOffset=10 EndLineNumber=62 EndCharacterOffset=22)" />
+    <Node Id="@7" Category="CodeSchema_Class" Bounds="413.124136572625,-33.1239406088469,272.103333333333,86.0002" CodeSchemaProperty_IsPublic="True" CommonLabel="OperationFactory" Group="Expanded" Icon="Microsoft.VisualStudio.Class.Public" Label="OperationFactory" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=79 StartCharacterOffset=17 EndLineNumber=79 EndCharacterOffset=33)" />
+    <Node Id="@8" Category="CodeSchema_Class" Bounds="441.024959742745,362.832559100354,194.765582613334,85.9896160000003" CodeSchemaProperty_IsInternal="True" CommonLabel="OperationMul" Group="Expanded" Icon="Microsoft.VisualStudio.Class.Internal" Label="OperationMul" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=54 StartCharacterOffset=10 EndLineNumber=54 EndCharacterOffset=22)" />
+    <Node Id="@9" Category="CodeSchema_Class" Bounds="890.615962409413,346.787488212767,194.826666666668,86.0002" CodeSchemaProperty_IsInternal="True" CommonLabel="OperationSqrt" Group="Expanded" Icon="Microsoft.VisualStudio.Class.Internal" Label="OperationSqrt" SourceLocation="(Assembly=file:///D:/C#Express/代码/lesson4/Computer/Computer.cs StartLineNumber=70 StartCharacterOffset=10 EndLineNumber=70 EndCharacterOffset=23)" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="(@1 @2 Type=OperationSub @12)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 @12)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=NumA)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=NumB)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=_numA)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=_numB)" Category="Contains" />
+    <Link Source="@4" Target="@10" Bounds="376.95263426662,316.840264792013,32.0572975389765,24.5306620017425" />
+    <Link Source="@4" Target="@5" Bounds="194.603978561873,281.25114691813,178.028356127098,68.1068360946884" />
+    <Link Source="@4" Target="@6" Bounds="667.786553136955,316.840264792013,32.0644054102816,24.5313324774042" />
+    <Link Source="@4" Target="@8" Bounds="538.397303058958,316.840264792013,0.00434184230164192,36.9437931886166" />
+    <Link Source="@4" Target="@9" Bounds="704.139001355639,281.245092927176,178.071182261098,68.116715845373" />
+    <Link Source="@5" Target="(@1 @2 Type=OperationAdd @12)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 Type=OperationDiv @12)" Category="Contains" />
+    <Link Source="@7" Target="(@1 @2 Type=OperationFactory Member=(Name=createOperate OverloadingParameters=[(@11 Namespace=System Type=String)]))" Category="Contains" />
+    <Link Source="@7" Target="@4" Bounds="543.98857796785,52.8762593911531,2.95618211882743,56.9760950517234" />
+    <Link Source="@8" Target="(@1 @2 Type=OperationMul @12)" Category="Contains" />
+    <Link Source="@9" Target="(@1 @2 Type=OperationSqrt @12)" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="类" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类" />
+    <Category Id="CodeSchema_Field" Label="字段" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="字段" />
+    <Category Id="CodeSchema_Member" Label="编号" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="成员" />
+    <Category Id="CodeSchema_Method" Label="方法" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="方法" />
+    <Category Id="CodeSchema_Property" Label="属性" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="属性" />
+    <Category Id="CodeSchema_Type" Label="类型" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类型" />
+    <Category Id="Contains" Label="包含" Description="链接的源是否包含目标对象" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="包含者" IsContainment="True" OutgoingActionLabel="包含" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="是内部的" Description="一个标志，用于指示该方法是“内部”方法" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="是私有的" Description="一个标志，用于指示该范围是“私有”范围" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="是公共的" Description="一个标志，用于指示该范围是“公共”范围" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="是静态的" Description="一个标志，用于指示该成员是静态成员" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="是虚拟的" Description="一个标志，用于指示可以重写该方法" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="组" Description="将节点显示为组" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsOverloaded" Label="IsOverloaded" Description="IsOverloaded" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="LayoutSettings" DataType="Microsoft.VisualStudio.Diagrams.View.GroupLayoutStyle" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="起始行号" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="Member" Label="编号" ValueType="System.Object" />
+    <Name Id="Name" Label="名称" ValueType="System.String" />
+    <Name Id="Namespace" Label="命名空间" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="参数" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="类型" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=file:///D:/C%2523Express/代码/lesson4/Computer/bin/Debug/Computer.exe" />
+    <Alias n="2" Id="Namespace=Computer" />
+    <Alias n="3" Id="Type=Operation" />
+    <Alias n="4" Id="(@1 @2 @3)" />
+    <Alias n="5" Id="(@1 @2 Type=OperationAdd)" />
+    <Alias n="6" Id="(@1 @2 Type=OperationDiv)" />
+    <Alias n="7" Id="(@1 @2 Type=OperationFactory)" />
+    <Alias n="8" Id="(@1 @2 Type=OperationMul)" />
+    <Alias n="9" Id="(@1 @2 Type=OperationSqrt)" />
+    <Alias n="10" Id="(@1 @2 Type=OperationSub)" />
+    <Alias n="11" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5.2/mscorlib.dll" />
+    <Alias n="12" Id="Member=GetResult" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="注释" ValueLabel="包含注释">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>
