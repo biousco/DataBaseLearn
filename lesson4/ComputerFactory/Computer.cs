@@ -8,14 +8,8 @@ namespace Computer
 {
     public interface Operation
     {
-
-        double NumA {
-            get; 
-        }
-
-        double NumB {
-            get;
-        }
+        double NumA { get; set; }
+        double NumB { get; set; }
         double GetResult();
     }
 

@@ -21,41 +21,41 @@ namespace ComputerFactory
                 string bNum = Console.ReadLine();
                 string res = "";
                 Operation oper;
+                OperationAddFactory operation = new OperationAddFactory();
+                oper = operation.createOperation();
                 switch (operate)
                 {
                     case "+":
                         {
-                            OperationAddFactory operation = new OperationAddFactory();
-                            oper = operation.createOperation();
-                  
+                            OperationAddFactory operation1 = new OperationAddFactory();
+                            oper = operation1.createOperation();
                             break;
                         }
                     case "-":
                         {
-                            OperationSubFactory operation = new OperationSubFactory();
-                            oper = operation.createOperation();
+                            OperationSubFactory operation1 = new OperationSubFactory();
+                            oper = operation1.createOperation();
                             break;
                         }
                     case "*":
                         {
-                            OperationMulFactory operation = new OperationMulFactory();
-                            oper = operation.createOperation();
+                            OperationMulFactory operation1 = new OperationMulFactory();
+                            oper = operation1.createOperation();
                             break;
                         }
                     case "/":
                         {
-                            OperationDivFactory operation = new OperationDivFactory();
-                            oper = operation.createOperation();
+                            OperationDivFactory operation1 = new OperationDivFactory();
+                            oper = operation1.createOperation();
                             break;
                         }
                     case "sqrt":
                         {
-                            OperationSqrtFactory operation = new OperationSqrtFactory();
-                            oper = operation.createOperation();
+                            OperationSqrtFactory operation1 = new OperationSqrtFactory();
+                            oper = operation1.createOperation();
                             break;
                         }
                 }
-                
                 oper.NumA = Convert.ToDouble(aNum);
                 oper.NumB = Convert.ToDouble(bNum);
                 res = Convert.ToString(oper.GetResult());
