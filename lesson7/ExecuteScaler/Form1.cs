@@ -29,7 +29,7 @@ namespace ExecuteScaler
             //SQL语句，查询Student表中的记录数
             string username = textBox1.Text.Trim();
             string password = textBox2.Text.Trim();
-            string sqlstring = "SELECT count(*) FROM admin where username = '" + username + "'and password = '" + password + "'";//集合函数count()的使用
+            string sqlstring = "SELECT count(*) FROM admin where adminUser = '" + username + "'and adminPwd = '" + password + "'";//集合函数count()的使用
             //建立连接对象
             SqlConnection conn = new SqlConnection(connstring);
 
