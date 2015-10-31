@@ -49,7 +49,7 @@ namespace ExecuteScaler
             {
                 label3.Text = "用户名或密码错误";
             }
-            */
+            
 
             SqlDataReader sdr = cmd.ExecuteReader();
             
@@ -63,7 +63,7 @@ namespace ExecuteScaler
                 textBox2.Text = "";
                 textBox1.Focus();
             }
-
+            */
             conn.Close();
         }
 

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecuteNonQuery", "Command\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecuteScaler", "ExecuteScaler\ExecuteScaler.csproj", "{5B49452D-5472-4BE4-BB8D-94C85CF0E20D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{BE326C34-C5D4-4107-8860-B6B26F69C5D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5B49452D-5472-4BE4-BB8D-94C85CF0E20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B49452D-5472-4BE4-BB8D-94C85CF0E20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B49452D-5472-4BE4-BB8D-94C85CF0E20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE326C34-C5D4-4107-8860-B6B26F69C5D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE326C34-C5D4-4107-8860-B6B26F69C5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE326C34-C5D4-4107-8860-B6B26F69C5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE326C34-C5D4-4107-8860-B6B26F69C5D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
