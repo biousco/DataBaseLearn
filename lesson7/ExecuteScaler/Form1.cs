@@ -38,16 +38,32 @@ namespace ExecuteScaler
             //打开连接
             conn.Open();
 
+
             //执行命令，返回影响的行数
-            int o = (int)cmd.ExecuteScalar();
-            if(o == 1)
+            //int o = (int)cmd.ExecuteScalar();
+            /*
+            if (o == 1)
             {
                 label3.Text = "登录成功！！";
             } else
             {
                 label3.Text = "用户名或密码错误";
             }
+            */
+
+            SqlDataReader sdr = cmd.ExecuteReader();
             
+            if (sdr.Read())
+            {
+                MessageBox.Show("登录成功！");
+            } else
+            {
+                MessageBox.Show("用户名或密码错误", "错误");
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox1.Focus();
+            }
+
             conn.Close();
         }
 
