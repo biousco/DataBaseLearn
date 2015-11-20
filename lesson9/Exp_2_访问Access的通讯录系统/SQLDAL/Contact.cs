@@ -5,11 +5,12 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 using Model;
+using IDAL;
 
 namespace SQLDAL
 {
     //操作Contact表的类   
-    public class Contact
+    public class Contact : IContact
     {
         public Contact()
         { }
@@ -218,6 +219,11 @@ namespace SQLDAL
             {
                 return null;
             }
+        }
+
+        public int GetContactCount(int groupId)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion Method

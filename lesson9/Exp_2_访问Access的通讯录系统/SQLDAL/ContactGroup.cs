@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
+using IDAL;
 
 namespace SQLDAL
 {
     //针对表ContactGroup的数据访问类
-    public class ContactGroup
+    public class ContactGroup: IContactGroup
     {
         public ContactGroup()
         { }

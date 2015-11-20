@@ -2,11 +2,12 @@
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
+using IDAL;
 
 namespace SQLDAL
 {
     //访问并操作数据表user的类
-    public class User
+    public class User: IUser
     {
         public User()
         { }

@@ -5,10 +5,11 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 using System.IO;
+using IDAL;
 
 namespace SQLDAL
 {
-    public class BackupAndRestoreDb
+    public class BackupAndRestoreDb : IBackupAndRestoreDb
     {
         //备份数据库
         public void BackDb(string backupPath)

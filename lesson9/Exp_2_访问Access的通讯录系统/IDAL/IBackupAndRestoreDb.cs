@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace IDAL
 {
-    public class Class1
+    public interface IBackupAndRestoreDb
     {
+        void BackDb(string backupPath);
+        void RestoreDb(string restorePath);
     }
 }

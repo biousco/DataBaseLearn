@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using System.Data.OleDb;
+using IDAL;
 
 namespace AccessDAL
 {
     //数据访问类：Contact
-    public class Contact
+    public class Contact : IContact
     {
         public Contact()
         { }
@@ -224,6 +225,11 @@ namespace AccessDAL
             {
                 return null;
             }
+        }
+
+        public int GetContactCount(int groupId)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion Method

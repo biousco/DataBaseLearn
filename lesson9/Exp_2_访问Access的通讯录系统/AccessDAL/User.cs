@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data.OleDb;
+using IDAL;
 
 namespace AccessDAL
 {
     //数据访问类：User
-    public partial class User
+    public partial class User : IUser
     {
         public User()
         { }

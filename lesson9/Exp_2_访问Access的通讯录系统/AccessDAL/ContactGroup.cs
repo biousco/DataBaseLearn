@@ -1,11 +1,12 @@
 ﻿using System.Text;
 using System.Data;
 using System.Data.OleDb;
+using IDAL;
 
 namespace AccessDAL
 {
     //数据库访问类：ContactGroup
-    public partial class ContactGroup
+    public partial class ContactGroup : IContactGroup
     {
         public ContactGroup()
         { }

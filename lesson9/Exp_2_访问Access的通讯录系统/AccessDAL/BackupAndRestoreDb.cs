@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using IDAL;
 
 namespace AccessDAL
 {
-    public class BackupAndRestoreDb
+    public class BackupAndRestoreDb : IBackupAndRestoreDb
     {
         //备份数据库
         public void BackDb(string backupPath)
