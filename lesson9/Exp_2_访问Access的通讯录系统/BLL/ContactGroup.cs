@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using Model;
-using AccessDAL;
+
 
 namespace BLL
 {
@@ -14,7 +14,9 @@ namespace BLL
     //该分组下是否存在联系人，如果存在，不允许删除该分组
     public  class ContactGroup
     {
-        AccessDAL.ContactGroup group = new AccessDAL.ContactGroup();
+
+        IDAL.IContactGroup group = DALFactory.DataAccessFactory.CreateContactGroup();
+        //AccessDAL.ContactGroup group = new AccessDAL.ContactGroup();
        public DataTable GetList(string strWhere)
        {
            return group.GetList(strWhere);

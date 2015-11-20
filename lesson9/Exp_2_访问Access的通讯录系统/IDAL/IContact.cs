@@ -15,5 +15,6 @@ namespace IDAL
         bool Delete(int Id);
         bool Update(Model.Contact model);
         Model.Contact GetModel(int Id);
+        int GetContactCountByGroupId(int groupId);
     }
 }

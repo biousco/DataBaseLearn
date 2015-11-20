@@ -82,13 +82,17 @@
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AccessDAL\AccessDAL.csproj">
-      <Project>{18B349AC-00CA-4EE3-A9F8-81BEC737537C}</Project>
-      <Name>AccessDAL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{E643B77C-DDEF-473A-B0A9-742BD098F486}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DALFactory\DALFactory.csproj">
+      <Project>{d7f1c60c-5565-40ff-bef5-12c1ef38c2fe}</Project>
+      <Name>DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{f7efb295-3b0b-4aef-b4f4-c71d9166d253}</Project>
+      <Name>IDAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{27B7B375-BA35-4AD6-8904-8D30D2E469B3}</Project>

@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using Common;
 using Model;
-using AccessDAL; //
 using System.Data;
 
 namespace BLL
@@ -13,7 +12,8 @@ namespace BLL
     {
         //针对Contact表的业务处理逻辑类
         //把表示层的数据转发给数据访问层
-       AccessDAL.Contact dal = new AccessDAL.Contact();
+        IDAL.IContact dal = DALFactory.DataAccessFactory.CreateContact();
+        //AccessDAL.Contact dal = new AccessDAL.Contact();
         public int GetContactGount(int groupId)
         {
             return dal.GetContactCountByGroupId(groupId);

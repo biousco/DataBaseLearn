@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AccessDAL;
 using Model;
 
 namespace BLL
@@ -11,8 +10,8 @@ namespace BLL
     {
         //针对User表的业务处理逻辑类
         //把表示层的数据转发给数据访问层
-
-       AccessDAL.User user = new AccessDAL.User();
+        IDAL.IUser user = DALFactory.DataAccessFactory.CreateUser();
+       //AccessDAL.User user = new AccessDAL.User();
         public bool Login(string userName, string userPassword)
         {
             return user.Login(userName,userPassword);

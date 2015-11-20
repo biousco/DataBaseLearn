@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLDAL", "SQLDAL\SQLDAL.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDAL", "IDAL\IDAL.csproj", "{F7EFB295-3B0B-4AEF-B4F4-C71D9166D253}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALFactory", "DALFactory\DALFactory.csproj", "{D7F1C60C-5565-40FF-BEF5-12C1EF38C2FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +80,14 @@ Global
 		{F7EFB295-3B0B-4AEF-B4F4-C71D9166D253}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F7EFB295-3B0B-4AEF-B4F4-C71D9166D253}.Release|x86.ActiveCfg = Release|Any CPU
 		{F7EFB295-3B0B-4AEF-B4F4-C71D9166D253}.Release|x86.Build.0 = Release|Any CPU
+		{D7F1C60C-5565-40FF-BEF5-12C1EF38C2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F1C60C-5565-40FF-BEF5-12C1EF38C2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F1C60C-5565-40FF-BEF5-12C1EF38C2FE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D7F1C60C-5565-40FF-BEF5-12C1EF38C2FE}.Debug|x86.Build.0 = Debug|Any CPU
+		{D7F1C60C-5565-40FF-BEF5-12C1EF38C2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F1C60C-5565-40FF-BEF5-12C1EF38C2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F1C60C-5565-40FF-BEF5-12C1EF38C2FE}.Release|x86.ActiveCfg = Release|Any CPU
+		{D7F1C60C-5565-40FF-BEF5-12C1EF38C2FE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
