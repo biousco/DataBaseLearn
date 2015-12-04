@@ -97,5 +97,10 @@ namespace WinFormUI
         {
             this.Close();
         }
+
+        private void dgvContactList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

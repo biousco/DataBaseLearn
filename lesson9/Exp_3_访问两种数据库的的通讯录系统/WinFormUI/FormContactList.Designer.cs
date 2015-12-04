@@ -61,6 +61,7 @@
             this.dgvContactList.RowTemplate.Height = 23;
             this.dgvContactList.Size = new System.Drawing.Size(630, 253);
             this.dgvContactList.TabIndex = 0;
+            this.dgvContactList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvContactList_CellContentClick);
             // 
             // Column1
             // 
